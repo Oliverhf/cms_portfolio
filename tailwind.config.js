@@ -11,6 +11,7 @@ module.exports = {
         lightGray: '#C7D6D5',
         black: '#201A23',
         purple: '#832161',
+        red: '#ff1919',
         pink: '#DA4167',
         rasinBlack: '#2E2532'
       },
