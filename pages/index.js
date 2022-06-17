@@ -75,23 +75,24 @@ export default function Home() {
       </section>
       <section className="relative sm:h-screen">
         <div className="py-8 sm:py-32">
-          <h2 className="text-blue text-3xl sm:text-4xl text-center font-normal uppercase leading-12">
+          <h2 className="text-blue text-2xl sm:text-4xl text-center font-normal uppercase leading-12">
             Projects
           </h2>
           <hr className="block rounded-md w-8 m-auto my-12 text-black"></hr>
-          <div className="flex-col gap-20 sm:flex-row flex justify-evenly m-auto container w-11/12 sm:container sm:mx-auto sm:px-10 mb-8">
+          <div className="flex-col sm:flex-row flex m-auto w-10/12 md:w-fit gap-6 container-md sm:px-10">
             {projects.map((project) => (
               <FeaturedProjects key={project.id} project={project} />
             ))}
           </div>
         </div>
       </section>
-      <section className="relative h-100 rounded-sm">
-        <div className="relative py-4 mb-16 bg-blue">
+      <section className="relative h-100 pb-20 rounded-sm">
+        <div className="relative py-0 md:py-4 mb-16">
           <div>
-            <h4 className="text-white text-3xl sm:text-4xl text-center uppercase font-normal leading-14">
+            <h4 className="text-blue text-2xl sm:text-4xl text-center uppercase font-normal leading-14">
               Skills
             </h4>
+            <hr className="block rounded-md w-8 m-auto my-12 text-black"></hr>
           </div>
         </div>
         <div className="containe m-auto container w-10/12 sm:mx-auto sm:px-10 mb-8 z-20">
@@ -195,43 +196,23 @@ export default function Home() {
                 <div>
                   <div className="flex flex-col items-start sm:flex-row sm:items-center">
                     <div className="flex items-center mr-3">
-                      <input 
-                        className="flex items-center mr-2 accent-blueSecondary"
-                        type="checkbox"
-                        defaultChecked={true}
-                      />
+                    <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>React</span>
                     </div>
                     <div className="flex items-center mr-3">
-                      <input 
-                        className="flex items-center mr-2 accent-blueSecondary"
-                        type="checkbox"
-                        defaultChecked={true}
-                      />
+                    <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>NextJS</span>
                     </div>
                     <div className="flex items-center mr-3">
-                      <input 
-                        className="flex items-center mr-2 accent-blueSecondary"
-                        type="checkbox"
-                        defaultChecked={true}
-                      />
+                      <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>ASP.NET Web API</span>
                     </div>
                     <div className="flex items-center mr-3">
-                      <input 
-                        className="flex items-center mr-2 accent-blueSecondary"
-                        type="checkbox"
-                        defaultChecked={true}
-                      />
+                      <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>Express</span>
                     </div>
                     <div className="flex items-center mr-3 accent-blueSecondary">
-                      <input 
-                        className="flex items-center mr-2"
-                        type="checkbox"
-                        defaultChecked={true}
-                      />
+                      <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>Pheonix</span>
                     </div>
                   </div>

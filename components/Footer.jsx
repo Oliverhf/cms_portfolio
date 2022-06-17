@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className='block bg-white'>
-        <div className='relative flex flex-col sm:flex-row items-center container mx-auto py-6 border-t border-black'> 
+    <footer className='block bg-shadowGray'>
+        <div className='relative flex flex-col sm:flex-row items-center container mx-auto py-6'> 
            <a className='flex mr-4 sm:mr-' href='mailto:oliver.hfavalli@gmail.com'>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path className='fill-black' d="M20 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V6C22 4.89543 21.1046 4 20 4ZM20 11L13.65 15.45C12.659 16.1427 11.341 16.1427 10.35 15.45L4 11V8.9L11.35 14.05C11.7409 14.3213 12.2591 14.3213 12.65 14.05L20 8.9V11Z" />
@@ -21,7 +21,11 @@ const Footer = () => {
               +55 11 97555-8597
             </span>
            </div>
-           <div className='sm:relative right-0'>
+           <div className='flex items-center sm:relative right-0'>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C7.58172 2 4 5.58172 4 10C4 16.22 9.05 16.17 10.26 19.78L10.77 21.32C10.913 21.7454 11.3218 22.0234 11.77 22H12.33C12.7782 22.0234 13.187 21.7454 13.33 21.32L13.84 19.78C15 16.17 20 16.22 20 10C20 5.58172 16.4183 2 12 2ZM12 13C10.3431 13 9 11.6569 9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10C15 10.7956 14.6839 11.5587 14.1213 12.1213C13.5587 12.6839 12.7956 13 12 13Z" fill="#333333"/>
+            </svg>
+
             <address className='text-black font-light'>
               São Paulo, SP | Brazil
             </address>

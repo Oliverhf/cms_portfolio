@@ -2,24 +2,24 @@ import React from "react";
 import Link from "next/link";
 
 const FeaturedProjects = ({ project }) => (
-  <div className="relative h-96 w-full sm:w-96 transition ease-out duration-220 hover:z-30 hover:shadow-2xl transform-gpu z-20">
+  <div className="relative h-96 w-full sm:w-96 transition ease-out duration-220 hover:z-30 hover:shadow-2xl hover:scale-105 transform-gpu z-20">
     <div className="absolute rounded-lg bg-center bg-white bg-no-repeat bg-cover shadow-md inline-block w-full h-96" />
     <div className="absolute rounded-lg bg-center bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full h-96" />
     <div className="flex rounded-lg absolute w-full h-full">
       <div className="flex flex-col items-center justify-evenly y h-full max-w-xs m-auto">
         <Link href={`${project.sourceCode}`}>
           <div className="cursor-pointer group flex items-center z-20">
-            <h3 className="text-black font-normal text-2xl leading-9">
+            <h3 className="text-black font-normal text-xl md:text-2xl leading-9">
               {project.name}
             </h3>
           </div>
         </Link>
         <Link href={`${project.link}`}>
-          <span className="text-blue rounded-xl border p-3 font-light text-md text-center leading-8 transition ease-out duration-220 hover:bg-blue hover:text-white z-20 cursor-pointer">
+          <span className="text-gray rounded-xl border p-3 font-light text-sm md:text-md text-center leading-8 transition ease-out duration-220 hover:bg-gray hover:text-white z-20 cursor-pointer">
             {project.segment}
           </span>
         </Link>
-        <p className="inline align-middle text-black ml-2 font-medium text-md leading-7">
+        <p className="inline align-middle text-black ml-2 font-medium  text-sm md:text-md leading-7 text-center">
           {project.description}
         </p>
         <Link href={`${project.sourceCode}`}>

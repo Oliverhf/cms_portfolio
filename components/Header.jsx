@@ -14,8 +14,8 @@ const Header = () => {
   const portfolioPaths = "/";
 
   return (
-    <div className="container mx-auto md:px-10 mb-8 z-20">
-      <div className="relative flex items-center w-full px-6 sm:px-0 inline-block border-black py-6 border-b ">
+    <div className="bg-white z-20">
+      <div className="relative container mx-auto flex items-center w-full px-6 sm:px-0 inline-block py-6">
         <div className="md:float-left block">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
