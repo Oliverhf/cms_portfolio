@@ -56,11 +56,11 @@ export default function Home() {
               }}
               className="absolute z-20 inset-0 block"
             >
-              <div className="m-40">
-                <h1 className="block m-10 text-6xl font-bold text-white text-center">
-                  Oliver <span className="text-blue">Favalli</span>
+              <div className="sm:m-40 ">
+                <h1 className="text-3xl block m-10 sm:text-6xl font-bold text-white text-center">
+                  Oliver <span className="text-blue brightness-125">Favalli</span>
                 </h1>
-                <p className="block m-10 text-xl font-normal text-white text-center">
+                <p className="block m-10 text-lg font-normal text-white text-center">
                   São Paulo, Brazil{" "}
                   <span className="font-light opacity-70 mx-1">|</span> +55 11
                   97555-8597
@@ -73,13 +73,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="relative h-screen">
-        <div className="py-32">
-          <h2 className="text-blue text-4xl text-center font-normal uppercase leading-12">
+      <section className="relative sm:h-screen">
+        <div className="py-8 sm:py-32">
+          <h2 className="text-blue text-3xl sm:text-4xl text-center font-normal uppercase leading-12">
             Projects
           </h2>
-          <hr className="block rounded-md w-8 h-2 m-auto my-12"></hr>
-          <div className="flex justify-evenly container mx-auto px-10 mb-8">
+          <hr className="block rounded-md w-8 m-auto my-12 text-black"></hr>
+          <div className="flex-col gap-20 sm:flex-row flex justify-evenly m-auto container w-11/12 sm:container sm:mx-auto sm:px-10 mb-8">
             {projects.map((project) => (
               <FeaturedProjects key={project.id} project={project} />
             ))}
@@ -89,17 +89,17 @@ export default function Home() {
       <section className="relative h-100 rounded-sm">
         <div className="relative py-4 mb-16 bg-blue">
           <div>
-            <h4 className="text-white text-4xl text-center uppercase font-normal leading-14">
+            <h4 className="text-white text-3xl sm:text-4xl text-center uppercase font-normal leading-14">
               Skills
             </h4>
           </div>
         </div>
-        <div className="container mx-auto px-10 mb-8 z-20">
+        <div className="containe m-auto container w-10/12 sm:mx-auto sm:px-10 mb-8 z-20">
           <div className="">
-            <h5 className="text-black text-2xl capitalize font-normal">
+            <h5 className="text-black text-xl sm:text-2xl capitalize mb-4 font-normal">
               Programming Languages + Tools
             </h5>
-            <div className="flex my-8 gap-2">
+            <div className="flex overflow-x-scroll sm:overflow-x-hidden sm:mt-8 sm:m-b-4 gap-2">
               <img
                 align="center"
                 alt="Oliver-HTML"
@@ -188,12 +188,12 @@ export default function Home() {
               <img align="center" alt="Oliver-Firebase" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />
             </div>
             <div className="mb-20">
-              <h5 className="text-black text-2xl my-8 capitalize font-normal">
+              <h5 className="text-black text-xl sm:text-2xl mt-8 mb-4 capitalize font-normal">
                 Workflow
               </h5>
               <div>
                 <div>
-                  <div className="flex items-center">
+                  <div className="flex flex-col items-start sm:flex-row sm:items-center">
                     <div className="flex items-center mr-3">
                       <input 
                         className="flex items-center mr-2 accent-blueSecondary"

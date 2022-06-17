@@ -14,8 +14,8 @@ const Header = () => {
   const portfolioPaths = "/";
 
   return (
-    <div className="container mx-auto px-10 mb-8 z-20">
-      <div className="relative flex items-center w-full inline-block border-green py-6 border-b">
+    <div className="container mx-auto md:px-10 mb-8 z-20">
+      <div className="relative flex items-center w-full px-6 sm:px-0 inline-block border-black py-6 border-b ">
         <div className="md:float-left block">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
@@ -48,7 +48,7 @@ const Header = () => {
             </div>
           </Link>
         </div>
-        <div className="absolute right-0 hidden md:float-left md:flex">
+        <div className="absolute hidden right-0 md:float-left md:flex">
           {router.pathname != portfolioPaths &&
             categories.map((category) => (
               <Link

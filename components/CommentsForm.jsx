@@ -94,7 +94,7 @@ const CommentsForm = ({slug}) => {
         <div className='mt-8'>
           <button
             type='button'
-            className='transition duration-300 ease hover:bg-pink inline-block bg-pink text-lg rounded-full text-white px-8 py-3 cursor-pointer'
+            className='transition duration-300 ease hover:bg-blue hover:brightness-125 inline-block bg-blue text-lg rounded-full text-white px-8 py-3 cursor-pointer'
             onClick={handleCommentSubmission}
           >
             Post Comment

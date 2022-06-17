@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const FeaturedProjects = ({ project }) => (
-  <div className="relative h-96 w-96 transition ease-out duration-220 hover:z-30 hover:shadow-2xl transform-gpu z-20">
+  <div className="relative h-96 w-full sm:w-96 transition ease-out duration-220 hover:z-30 hover:shadow-2xl transform-gpu z-20">
     <div className="absolute rounded-lg bg-center bg-white bg-no-repeat bg-cover shadow-md inline-block w-full h-96" />
     <div className="absolute rounded-lg bg-center bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full h-96" />
     <div className="flex rounded-lg absolute w-full h-full">
@@ -24,7 +24,7 @@ const FeaturedProjects = ({ project }) => (
         </p>
         <Link href={`${project.sourceCode}`}>
         <svg
-              className="align-middle w-8 h-8 ml-2 transition ease-out duration-220 hover:scale-110 transform-gpu z-20"
+              className="cursor-pointer align-middle w-8 h-8 ml-2 transition ease-out duration-220 hover:scale-110 transform-gpu z-20"
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
