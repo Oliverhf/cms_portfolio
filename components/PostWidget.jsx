@@ -38,7 +38,7 @@ const PostWidget = ({ categories, slug })  => {
                 <p className='text-gray font-xs'>
                   {moment(post.createdAt).format('MMM DD, YYYY')}
                 </p>
-                <Link href={`/post/${post.slug}`} key={post.title} className='text-md'>
+                <Link href={`/blog/post/${post.slug}`} key={post.title} className='text-md'>
                   <span className='text-gray'>
                   {post.title}
                   </span>

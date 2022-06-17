@@ -9,3 +9,5 @@ export { default as Author} from './Author'
 export {default as Layout } from './Layout'
 export { default as FeaturedPostCard} from  './FeaturedPostCard'
 export { default as Loader } from './Loader';
+export { default as Footer} from './footer'
+export { default as FeaturedProjects} from './FeaturedProjects'

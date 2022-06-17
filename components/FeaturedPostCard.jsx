@@ -3,6 +3,7 @@ import moment from 'moment';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 const FeaturedPostCard = ({ post }) => (
   <div className="relative h-72">
     <div className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-72" style={{ backgroundImage: `url('${post.featuredImage.url}')` }} />
@@ -22,7 +23,7 @@ const FeaturedPostCard = ({ post }) => (
         <p className="inline align-middle text-white text-shadow ml-2 font-medium">{post.author.name}</p>
       </div>
     </div>
-    <Link href={`/post/${post.slug}`}><span className="cursor-pointer absolute w-full h-full" /></Link>
+    <Link href={`/blog/post/${post.slug}`}><span className="cursor-pointer absolute w-full h-full" /></Link>
   </div>
 );
 
