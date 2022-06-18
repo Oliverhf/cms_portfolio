@@ -57,10 +57,10 @@ export default function Home() {
               className="absolute z-20 inset-0 block"
             >
               <div className="sm:m-40 ">
-                <h1 className="text-3xl block m-10 sm:text-6xl font-bold text-white text-center">
-                  Oliver <span className="text-blue brightness-125">Favalli</span>
+                <h1 className="text-4xl block mt-10 mb-8 md:m-10 sm:text-6xl font-bold text-white text-center">
+                  Oliver <span className="text-gray">Favalli</span>
                 </h1>
-                <p className="block m-10 text-lg font-normal text-white text-center">
+                <p className="block m-8 md:m-10 text-lg font-normal text-white text-center">
                   São Paulo, Brazil{" "}
                   <span className="font-light opacity-70 mx-1">|</span> +55 11
                   97555-8597
@@ -75,10 +75,10 @@ export default function Home() {
       </section>
       <section className="relative sm:h-screen">
         <div className="py-8 sm:py-32">
-          <h2 className="text-blue text-2xl sm:text-4xl text-center font-normal uppercase leading-12">
+          <h2 className="text-black text-2xl sm:text-4xl text-center font-normal uppercase leading-12">
             Projects
           </h2>
-          <hr className="block rounded-md w-8 m-auto my-12 text-black"></hr>
+          <hr className="block rounded-md w-8 m-auto mb-12 mt-4 text-gray"></hr>
           <div className="flex-col sm:flex-row flex m-auto w-10/12 md:w-fit gap-6 container-md sm:px-10">
             {projects.map((project) => (
               <FeaturedProjects key={project.id} project={project} />
@@ -89,13 +89,13 @@ export default function Home() {
       <section className="relative h-100 pb-20 rounded-sm">
         <div className="relative py-0 md:py-4 mb-16">
           <div>
-            <h4 className="text-blue text-2xl sm:text-4xl text-center uppercase font-normal leading-14">
+            <h4 className="text-black text-2xl sm:text-4xl text-center uppercase font-normal leading-14">
               Skills
             </h4>
-            <hr className="block rounded-md w-8 m-auto my-12 text-black"></hr>
+            <hr className="block rounded-md w-8 m-auto mb-8 mt-4 text-gray"></hr>
           </div>
         </div>
-        <div className="containe m-auto container w-10/12 sm:mx-auto sm:px-10 mb-8 z-20">
+        <div className="m-auto container w-10/12 sm:mx-auto sm:px-10 mb-8 z-20">
           <div className="">
             <h5 className="text-black text-xl sm:text-2xl capitalize mb-4 font-normal">
               Programming Languages + Tools
@@ -196,23 +196,23 @@ export default function Home() {
                 <div>
                   <div className="flex flex-col items-start sm:flex-row sm:items-center">
                     <div className="flex items-center mr-3">
-                    <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+                    <svg className="w-6 h-6 mr-3" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-gray" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>React</span>
                     </div>
                     <div className="flex items-center mr-3">
-                    <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+                    <svg className="w-6 h-6 mr-3" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-gray" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>NextJS</span>
                     </div>
                     <div className="flex items-center mr-3">
-                      <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+                      <svg className="w-6 h-6 mr-3" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-gray" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>ASP.NET Web API</span>
                     </div>
                     <div className="flex items-center mr-3">
-                      <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+                      <svg className="w-6 h-6 mr-3" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-gray" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>Express</span>
                     </div>
                     <div className="flex items-center mr-3 accent-blueSecondary">
-                      <svg className="w-6 h-6 mr-2" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-black" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+                      <svg className="w-6 h-6 mr-3" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path className="fill-gray" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
                       <span>Pheonix</span>
                     </div>
                   </div>

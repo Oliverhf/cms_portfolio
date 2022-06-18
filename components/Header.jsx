@@ -29,17 +29,17 @@ const Header = () => {
               >
                 <path
                   d="M48.75 18.2592C48.75 26.1346 42.4156 32.5 34.625 32.5C26.8344 32.5 20.5 26.1346 20.5 18.2592C20.5 10.3838 26.8344 4.01849 34.625 4.01849C42.4156 4.01849 48.75 10.3838 48.75 18.2592Z"
-                  stroke="#1A45B8"
+                  className="stroke-blueSecondary"
                   strokeWidth="3"
                 />
                 <path
                   d="M36.25 18.2593C36.25 22.6573 32.7138 26.2037 28.375 26.2037C24.0362 26.2037 20.5 22.6573 20.5 18.2593C20.5 13.8612 24.0362 10.3148 28.375 10.3148C32.7138 10.3148 36.25 13.8612 36.25 18.2593Z"
-                  stroke="#1A45B8"
+                  className="stroke-blueSecondary"
                   strokeWidth="3"
                 />
                 <path
                   d="M17.7891 32.8148L17.7891 4.20154L0.855469 4.20154L1.05078 8.40076H12.5352L12.5352 16.5258H1.61719V20.6859H12.5352L12.5352 32.8148H17.7891Z"
-                  fill="#1A45B8"
+                  className="fill-blueSecondary"
                 />
               </svg>
               <span style={{textRendering: "optimizeLegibility"}} className="relative top-px font-normal text-2xl text-black tacking-widest ml-2">
