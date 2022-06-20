@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Author = ({author}) => {
   return (
-    <div className='text-center mt-20 p-12 relative rounded-lg bg-blue'>
+    <div className='text-center mt-20 p-12 top-3 relative rounded-lg bg-blueSecondary'>
         <div className='absolute left-0 right-0 -top-14'>
         <Image 
           alt={author.name}
