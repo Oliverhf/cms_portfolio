@@ -6,12 +6,11 @@ export default function Home() {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      name: "",
-      segment: "",
-      description: "",
-      link: "",
-      sourceCode: "",
-      image: "",
+      name: "Notesawesome",
+      segment: "Notes/Reminder",
+      description: "An application that helps you write and organize your important notes anytime you need.",
+      link: "https://notesawesome.netlify.app",
+      sourceCode: "https://github.com/Oliverhf/notes-app",
     },
     {
       id: 2,
@@ -21,8 +20,6 @@ export default function Home() {
         "A streaming platform that provides movies & series having the account access. Sign In, Sign up, Browse, Auth listeners, Protected routes.",
       link: "https://moovtime.netlify.app",
       sourceCode: "https://github.com/Oliverhf/moovtime",
-      image:
-        "https://res.cloudinary.com/dakam7rfa/image/upload/v1655426377/Captura_de_Tela_2022-06-16_a%CC%80s_21.36.55_kudis2.png",
     },
     {
       id: 3,
@@ -32,8 +29,6 @@ export default function Home() {
         "Recipes from different chefs in one place, providing diversity in cuisine and its sharing. Posts, PostDetails, Author and AuthorDetails.",
       link: "https://recipe-app-gamma-five.vercel.app/",
       sourceCode: "https://github.com/Oliverhf/recipe-app",
-      image:
-        "https://res.cloudinary.com/dakam7rfa/image/upload/v1655426389/Captura_de_Tela_2022-06-16_a%CC%80s_21.37.24_rdgied.png",
     },
   ]);
   return (
