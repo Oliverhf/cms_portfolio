@@ -47,7 +47,7 @@ export default function Home() {
             />
             <div
               style={{
-                background: "linear-gradient(45deg, #000401, transparent)",
+                background: "linear-gradient(0deg, rgb(0, 4, 1), #00000040)",
               }}
               className="absolute z-20 inset-0 block"
             >
